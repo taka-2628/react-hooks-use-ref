@@ -6,7 +6,8 @@ function CounterState() {
   function handleClick() {
     setCount((count) => count + 1);
   }
-
+  console.log(count)
+  
   return (
     <div>
       <h1>CounterState</h1>
